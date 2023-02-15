@@ -62,4 +62,25 @@ body {
     width: 100%;
     background: url(.//img/clothes.jpg)no-repeat center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    font-size: 300%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#context {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
 }
