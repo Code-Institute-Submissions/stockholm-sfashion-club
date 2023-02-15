@@ -1,5 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display+SC&display=swap');
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blue;
+    margin: 0;
+    padding: 0;
+    font-family:'Cormorant Garamond', serif;
+    color: white;
     background-color: black;
+}
+
+/* header, logo, menu */
+
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+}
+
+#logo {
+    font-size: 210%;
+    float: left;
+    margin-left: 30px;
+    color: white;
+}
+
+#menu {
+    letter-spacing: 4px;
+    font-size: 110%;
+    
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid white;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+@media screen and (min-width:450px) {
+    #header {
+
+    }
+}
+
+/* first-page, image */
+
+.image {
+    height: 1000px;
+    width: 100%;
+    background: url(.//img/clothes.jpg)no-repeat center;
+    display: flex;
 }
