@@ -73,6 +73,7 @@ body {
     display: flex;
     height: 200px;
     width: 500%;
+    margin-left: 0;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -80,8 +81,9 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 200px;
+    height: 185px;
     width: 500%;
+    margin-right: 0;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -138,24 +140,35 @@ body {
     padding-bottom: 15px;
 }
 
-@media screen and (max-width:400px) {
-    .card .right .about-text {
-        padding-left: 0;
-        
-    }
-}
-
-@media screen and (max-width:400px) {
-    .card {
-    width: 90%;
-    grid-template-columns: repeat(2,1fr);
-    }
-}
-
+/* Third-page, sign up page */
 /* Third-page, sign up page */
 
 #third-page {
     height: 590px;
-    margin-top: 70px;
+    margin-top: 100px;
+    background: darkgrey;
+}
+
+h1 {
     margin-left: 30px;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 30px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    font-size: 15px;
 }
