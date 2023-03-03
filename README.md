@@ -1,1 +1,1 @@
-The Stockholm Fashion Club was created to bring together people who are passionate about fashion and want to connect with others who share their interests. We organize events and activities where members can meet, network, and learn from each other.
+
